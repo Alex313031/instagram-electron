@@ -68,7 +68,18 @@ async function createWindow () {
   // Create The Menubar
   Menu.setApplicationMenu(menu(store, mainWindow, app));
 
-  nativeTheme.themeSource = 'dark';
+  if (store.get('options.useLightMode')) {
+    nativeTheme.themeSource = 'light';
+  } else {
+    nativeTheme.themeSource = 'dark';
+  }
+
+  if (store.get('options.adblock')) {
+    var engine = await ElectronBlocker.fromLists(fetch, fullLists);
+    engine.enableBlockingInSession(session.defaultSession);
+  } else {
+    return;
+  }
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
