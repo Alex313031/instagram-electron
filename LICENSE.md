@@ -1,7 +1,7 @@
 MIT License
 
 Copyright (c) 2023 Alex313031
-Copyright (c) 2018 - 2021 Oscar Beaumont
+Copyright (c) 2015 - 2018 Azis Hapidin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

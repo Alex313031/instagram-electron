@@ -1,12 +1,23 @@
-# instagram-electron
-This is an example of implementation `loadURL()` and `webContents.setUserAgent()` from `BrowserWindow` class.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Alex313031/instagram-electron/master/Logo.png" width="200">
+</p>
 
-## To Use
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+<div align="center">
+  <h1>Instagram Electron</h1>
+  This is an electron app that brings the Instagram mobile experience onto desktop.
+  <br/>
+  This is a fork and successor of <a target="_blank" rel="noopener" href="https://github.com/azishapidin/instagram-electron">https://github.com/azishapidin/instagram-electron</a>.
+</div>
+
+## Install
+See the [releases](https://github.com/Alex313031/instagram-electron/releases).
+
+## Build
+You will need Nodejs > 16.
 
 ```bash
 # Clone this repository
-git clone https://github.com/azishapidin/instagram-electron
+git clone https://github.com/Alex313031/instagram-electron
 
 # Go into the repository
 cd instagram-electron
@@ -21,9 +32,5 @@ npm start
 ## Screenshot
 
 <div style="text-align: center;">
-<img src="screenshot.png">
+<img src="assets/screenshot.png">
 </div>
-
-## Note
-
-This repo is cloned and modified from [https://github.com/electron/electron-quick-start](https://github.com/electron/electron-quick-start)
