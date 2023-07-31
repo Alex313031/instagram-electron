@@ -3,21 +3,14 @@
   "appName": "instagram-electron",
   "version": "2.0.2",
   "description": "Instagram Electron app for desktop",
-  "main": "./src/main.js",
+  "main": "./main.js",
   "scripts": {
-    "start": "electron ./src",
-    "ver": "electron ./src --version",
-    "winstart": "electron src",
+    "start": "electron .",
+    "winstart": "electron .",
     "test": "npm run lint",
-    "burn": "rimraf package-lock.json && rimraf src/package-lock.json",
-    "clean": "rimraf dist && rimraf src/node_modules && rimraf node_modules",
-    "distclean": "rimraf dist",
-    "lint": "eslint \"src/**/*.js*\" \"src/**/*.css*\"",
-    "build": "cross-env NODE_ENV=production electron-builder --dir",
-    "dev": "cross-env NODE_ENV=development electron --user-data-dir=./test ./src",
-    "buildstart": "cross-env NODE_ENV=production electron-builder --dir && ./dist/linux-unpacked/instagram-electron",
-    "distLinux": "cross-env NODE_ENV=production electron-builder",
-    "postinstall": "patch-package && electron-builder install-app-deps"
+    "burn": "rimraf package-lock.json",
+    "clean": "rimraf node_modules",
+    "distclean": "rimraf dist"
   },
   "engines": {
     "node": ">=16"
