@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Alex313031/instagram-electron/master/Logo.png" width="200">
+  <img src="https://raw.githubusercontent.com/Alex313031/instagram-electron/master/Logo.svg" width="200">
 </p>
 
 <div align="center">
